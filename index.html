@@ -9,23 +9,22 @@
 <body>
     <!-- Navigation bar-->
     <nav>
-        <a href="#" class="logo">
-            <h1>
-            <span class="mn-space">McNaughty's Space</span>
-            <span class="fist">&#x1F44A;</span>
+        
+            <h1 class="logo">
+            <span>McNaughty's Space</span>
             </h1>
         <ul>
             <li class="nav-item">
-                <a href="#who" class="nav-link" id="nav-link">Who</a>
+                <a  class="nav-link" id="nav-link">Who</a>
             </li>
             <li class="nav-item">
-                <a href="#policy" class="nav-link" id="nav-link">Our Policy</a>
+                <a  class="nav-link" id="nav-link">Our Policy</a>
             </li>
             <li class="nav-item">
-                <a href="#contact" class="nav-link" id="nav-link">Contact Us</a>
+                <a class="nav-link" id="nav-link">Contact Us</a>
             </li>
             <li class="nav-item">
-                <a href="#newsletter" class="nav-link" id="nav-link">Enroll</a>
+                <a  class="nav-link" id="nav-link">Enroll</a>
             </li>
         </ul>
       
@@ -36,21 +35,22 @@
     <!--Division of Screen-->
 
     <section class="welcome">
-        <div class="intro-text">
-          <h1 style="color: #f1f1f1;">
-            <span class="text"> Welcome to the fun club. This space is managed by McNaughty herself! </span> <br />
+         <h1 style="color: #f1f1f1;">
+            <span class="text"> Welcome to the fun club.  This space is managed by McNaughty herself! </span> <br />
           </h1>
           <p style="color: #f1f1f1;">
-            An online streaming platform for boxing matches . We also dedicate some special time to throwbacks cuz old is gold
-          </p>
-          
-        </div>
-        
+            This is a space for techies who are also gamers to meet, connect and share ideas from both the serios side &#128526;
+           and the fun side. </p>
+        <h1 style="color: #f1f1f1;"> Login Details</h1>     
     </section>
 
-    <main id ="main-holder">
-        
+    <main id ="main">
+
         <form id="login-form">
+            <div id="msg-login-error-holder" ></div>
+            
+            <p id="login-error-msg">Ooops! You loose. <span id="errormsg-secondline">Try again!</span></p>
+
             <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
             <input type="text" name="password" id="password-field" class="login-form-field" placeholder="Password">
             <input type="submit" value="Submit Access Code" id="loginfm-submit" >
