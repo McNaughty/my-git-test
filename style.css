@@ -1,4 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
 body {
-    background: blue;
-    padding-left: 10%;
+    background: white;
+    padding-left: 1%;
+    font-family:"Poppins",sans-serif;
+    display: grid;
+    align-items: center;
+    background-image: url("./images/Tazmania-Final.png");
+    background-repeat: no-repeat;
+    background-position:  125px 150px;
+    background-color: #000000;
+    
 }
+
+/* PLacement of logo and memus */
+
+nav {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    box-shadow: 2px 3px 2px #f1f1f1;
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+}
+
+.logo{
+    font-size: 10;
+    font-weight: 500;
+}
+
+.fist {
+    color: var(--secondary-color);
+  }
+
+.mn-space{
+    color: var(--primary-color);
+  }
+
+ul{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item{
+    margin-left: 2rem;
+}
+
+
+.welcome{
+    padding-left: 50%;
+}
+
+#main-holder {
+    padding-left:50%;
+    width: 50px;
+    height: 100px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    /*background-color: bisque;*/
+
+}
+
+#login-form{
+    align-self: flex-start;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.login-form-field::placeholder{
+    color:chocolate;
+}
+
+/*class for login form fields*/
+.login-form-field{
+    border: none;
+    border-bottom: 5px solid #000000;
+    margin-bottom: 20px; /*provides spacing between the fields*/
+    border-radius: 15px;
+    outline: none;
+    padding: 0px 0px 5px 5px;
+}
+
+#loginfm-submit{
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #3a3a3a;
+    cursor: pointer;
+    outline: none;
+    
+}
+
