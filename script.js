@@ -6,7 +6,7 @@ document.querySelector("body").appendChild(h3); */
 //login code
 
 const loginFm = document.getElementById("login-form");
-const loginBtn = document.getElementById("login-form-submit");
+const loginBtn = document.getElementById("loginfm-submit");
 const loginErrMsg = document.getElementById("login-error-msg");
 
 
@@ -16,11 +16,10 @@ loginBtn.addEventListener("click",(e) =>{
     const username = loginFm.username.value;
     const password = loginFm.password.value;
 
-    if (username ==="user") && password === ("python"){
+    if (username ==="user" && password === "user"){
         alert("Kudos to you bazuu!");
-        location.reload();
     } else {
-        loginErrMsg.style.opacity = 1;
+        alert("Access Denied.");
     }
     
 })
